@@ -48,7 +48,7 @@ echo
 echo -e "\033[0;31mALL FILES in the destination folder which are NOT EXISTING in the origin folder WILL BE DESTROYED!\nIf the same filename exists in both folders, THE DESTINATION FILE WILL BE OVERRIDDEN!\nIf you are not sure, press CTRL+C or just close this session/window to stop the process.\n\nAre you REALLY SURE you want to start the ROBOCOPY?\033[0m"
 pause
 # Execution
-rsync -avh --delete $robosync_origin $robosync_destination
+rsync -avh --delete "$robosync_origin" "$robosync_destination"
 # Finished
 echo
 echo "I did my job! Check eventual error messages before. Bye! 😉"
