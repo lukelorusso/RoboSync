@@ -28,7 +28,7 @@ For Windows, put the script in your bin folder. If you don't have one, you can c
 
 `robosync(.sh) [ORIGIN] [DESTINATION]`
 
-For Linux and macOS please remember to include the last slash (e.g.: `robosync ./origin/ ./destination/`).
+For Linux and macOS please remember to include the last slash (e.g.: `robosync.sh ./origin/ ./destination/`).
 
 ORIGIN and DESTINATION are optional: if you don't specify them you will be asked to input them.
 
