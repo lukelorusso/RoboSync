@@ -43,4 +43,4 @@ Here's how the copy is done:
 
 ## Copyright ##
 
-The App: Copyright 2025 LUCA LORUSSO - https://lukelorusso.com/  
+Copyright 2025 LUCA LORUSSO - https://lukelorusso.com/  
