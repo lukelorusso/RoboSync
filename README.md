@@ -28,14 +28,14 @@ For Windows, put the script in your bin folder. If you don't have one, you can c
 
 `robosync(.sh) [ORIGIN] [DESTINATION]`
 
-For Linux and macOS please remember to include the last slash.
+For Linux and macOS please remember to include the last slash (e.g.: `robosync ./origin/ ./destination/`).
 
 ORIGIN and DESTINATION are optional: if you don't specify them you will be asked to input them.
 
 Here's how the copy is done:
 - if a file exists in ORIGIN does not exist in DESTINATION, it will be created; dates will be kept
-- if a file already exists in DESTINATION, it will be overridden only if
-  • the content don't match its ORIGIN counterpart
+- if a file already exists in DESTINATION, it will be overridden only if  
+  • the content don't match its ORIGIN counterpart  
   • the dates are different
 - if a file exists in DESTINATION but not in ORIGIN, it will be deleted
 
