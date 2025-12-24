@@ -2,6 +2,10 @@ pause() {
     read -s -n 1 -p "Press any key to continue..."
     echo
 }
+set_title() {
+    echo -ne "\033]0;$1\007"
+}
+set_title "RoboSync (by LukeLorusso)"
 # Acquiring vars from args
 if [[ ( $# -gt 2 ) || ( $# -eq 1 && $1 = "--help" ) || ( $# -eq 1 && $1 = "-h" ) ]]
 then
