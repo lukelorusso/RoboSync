@@ -22,7 +22,7 @@ Then do:
 ---
 
 For Windows, put the script in your bin folder. If you don't have one, you can create `bin` in your user folder and then do:
-`set PATH=%PATH%;%USERPROFILE%\bin\`
+`setx PATH "%PATH%;%USERPROFILE%\bin\"`
 
 ## Usage ##
 
