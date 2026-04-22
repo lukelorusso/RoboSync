@@ -1,3 +1,4 @@
+#!/bin/bash
 pause() {
     read -s -n 1 -p "Press any key to continue..."
     echo
@@ -7,7 +8,7 @@ set_title() {
 }
 set_title "RoboSync (by LukeLorusso)"
 # Acquiring vars from args
-if [[ ( $# -gt 2 ) || ( $# -eq 1 && $1 = "--help" ) || ( $# -eq 1 && $1 = "-h" ) ]]
+if [ $# -gt 2 ] || ([ $# -eq 1 ] && [ "$1" = "--help" ]) || ([ $# -eq 1 ] && [ "$1" = "-h" ])
 then
     echo "Usage: robosync [ORIGIN] [DESTINATION]"
     echo "e.g.: robosync ./origin/ ./destination/"
